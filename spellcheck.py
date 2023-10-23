@@ -2,7 +2,7 @@
 # This start code creates two lists
 # 1: dictionary: a list containing all of the words from "dictionary.txt"
 # 2: aliceWords: a list containing all of the words from "AliceInWonderland.txt"
-
+3
 import re  # Needed for splitting text with a regular expression
 
 
