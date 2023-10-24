@@ -12,7 +12,7 @@ def main():
     aliceWords = loadWordsFromFile("data-files/AliceInWonderLand.txt")
 
 
-    text = input("dictrionary or aliceWords ")
+    text = input("dictionary or aliceWords ")
     word = input("what word to search for ")
     method = input("binary or linear search ")
 
