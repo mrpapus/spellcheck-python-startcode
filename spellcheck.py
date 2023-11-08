@@ -48,6 +48,7 @@ def search(array,item,LorB):
         found = binarysearch(array,item)
         return found
 
+
 def spell_check_text(words,dictionary):
     LorB = input("linear or binary (l/b)")
     words = [x.lower() for x in words]
@@ -72,15 +73,6 @@ def spell_check_word(dictionary):
         print(f"{word} not found in dictionary. ({total} seconds)")
     else:
         print(f"{dictionary[found]} is IN the dictionary at position {found}. ({total} seconds) ")
-
-    # if method == "binary":
-    #     print (binarysearch(text,word))
-    # else:
-    #      print (linearSearch(text,word))
-#     # Print first 50 values of each list to verify contents
-#     print(dictionary[0:50])
-#     print(aliceWords[0:50])
-# # end main()
 
 
 def loadWordsFromFile(fileName):
